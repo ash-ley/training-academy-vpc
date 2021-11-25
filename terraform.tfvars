@@ -12,3 +12,6 @@ public_c_cidr = "192.168.13.0/24"
 private_a_cidr = "192.168.21.0/24"
 private_b_cidr = "192.168.22.0/24"
 private_c_cidr = "192.168.23.0/24"
+
+# KEYPAIR
+keypair_name = "ta-lab-key"

@@ -47,3 +47,15 @@ variable "region" {
     description = "The region that we're working on"
     type = string
 }
+
+# INSTANCE
+variable "instance_type" {
+  description = "The type of my first server"
+  type = string
+  default = "t2.micro"
+}
+
+variable "keypair_name" {
+  description = "The name of my keypair"
+  type = string
+}
